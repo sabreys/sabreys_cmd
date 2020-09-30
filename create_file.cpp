@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include <sys/stat.h>
-
+#include <stdlib.h>  
+#include<string.h>
+#include "windows.h"
 int is_exist(const char* filename);
 
 int main(int argc, char *argv[]){
@@ -20,8 +22,12 @@ if(is_exist(argv[1])){
 FILE *fp; 
 fp=fopen(argv[1],"w"); 
 fclose(fp); 
-	printf("file created.");
+printf("file created.");
 
+
+ShellExecute(GetDesktopWindow(), "open", argv[1], NULL, NULL, SW_SHOWNORMAL);
+
+    
 	
 	
 	return 0;
