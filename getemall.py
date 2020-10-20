@@ -42,7 +42,7 @@ def download_videos():
     for element in link_list:
         print(element)
         subprocess.run(["youtube-dl", element], stdin=subprocess.DEVNULL)
-      
+
 
 
 def main():
