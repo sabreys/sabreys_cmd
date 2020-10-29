@@ -11,6 +11,9 @@ def main():
 
     print("downloading...")
     # os.system(command)
+
+
+
     subprocess.run(["youtube-dl", url,"-o","video.mp4","-f","bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best"], stdin=subprocess.DEVNULL)
     subprocess.run(["ffmpeg","-i","video.mp4","-ss",sys.argv[2],"-t",sys.argv[3], "-c:a","copy","result.mp4"], stdin=subprocess.DEVNULL)
     #subprocess.run(["ffmpeg" ,"-i" ,"output-cut.mkv", "-c" ,"copy", "-c:a" ,"aac",  "output.mp4"], stdin=subprocess.DEVNULL) its for mkv videos
@@ -18,13 +21,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
-
-
 
 
 
