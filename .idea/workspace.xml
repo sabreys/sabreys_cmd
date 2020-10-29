@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55544fee-5030-4171-a1c7-588d7dc60398" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/getandcut.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sabreys_cmd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sabreys_cmd.iml" afterDir="false" />
+    <list default="true" id="55544fee-5030-4171-a1c7-588d7dc60398" name="Default Changelist" comment="new video cutter added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get1video.py" beforeDir="false" afterPath="$PROJECT_DIR$/get1video.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getandcut.py" beforeDir="false" afterPath="$PROJECT_DIR$/getandcut.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +60,14 @@
       <option name="presentableId" value="Default" />
       <updated>1600935982822</updated>
     </task>
+    <task id="LOCAL-00001" summary="new video cutter added">
+      <created>1604004562034</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604004562034</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -76,14 +81,22 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new video cutter added" />
+    <option name="LAST_COMMIT_MESSAGE" value="new video cutter added" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604003691783">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604003691783" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1604001665779">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1604005087889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604001665779" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604005087889" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604004619004">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604004619004" />
   </component>
 </project>
